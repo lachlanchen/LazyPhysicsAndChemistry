@@ -1,0 +1,9 @@
+      IMPLICIT NONE
+
+      INTEGER MaxWalkNum
+
+      PARAMETER (MaxWalkNum=4000)
+
+      DOUBLE PRECISION Walker(MaxWalkNum)
+
+      COMMON Walker

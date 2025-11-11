@@ -1,0 +1,30 @@
+      IMPLICIT NONE
+
+      INTEGER PartNum, MaxLen
+
+      PARAMETER (PartNum = 512, MaxLen=100000)
+
+C Qx, Qy and Qz contain the coordinates of the atoms. 
+C OQx etc represent the "old" coordinates, necessary in
+C the velocity-Verlet algorithm.
+
+      DOUBLE PRECISION Qx(PartNum), Qy(PartNum), Qz(PartNum), 
+     .       OQx(PartNum), OQy(PartNum), OQz(PartNum), 
+     .       Px(PartNum), Py(PartNum), Pz(PartNum), 
+     .       Temperature, Volume, InitTime, SimTime, TimeStep,
+     .       VolSize, Density, XVolSize, MaxRange, CorrStep,
+     .       PairDist(MaxLen,4), ROuter, RInner, Sep, HalfInvTSt
+
+      INTEGER ScaleTime, CorrArray(MaxLen), PairList(MaxLen, 2),
+     .        PairNum, DispInt
+
+      COMMON /MainCommon/ Temperature, Volume, InitTime, 
+     .       SimTime, TimeStep, Qx, Qy, Qz, Px, Py, Pz, 
+     .       OQx, OQy, OQz,  
+     .       VolSize, Density, XVolSize, MaxRange, CorrStep,
+     .       ROuter, RInner, Sep, HalfInvTSt,
+     .       PairDist, CorrArray, ScaleTime, PairList, PairNum,
+     .       DispInt
+
+
+

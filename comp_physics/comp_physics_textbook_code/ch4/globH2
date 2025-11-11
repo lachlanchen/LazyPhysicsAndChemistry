@@ -1,0 +1,23 @@
+      IMPLICIT NONE
+
+      INTEGER N, NSize
+
+      PARAMETER (N=4, NSize=8)
+
+      DOUBLE PRECISION Z, PI, Alpha(NSize), C(NSize), 
+     .       DensMat(NSize, NSize),
+     .       SMatrix(NSize,NSize), 
+     .       HMatrix(NSize,NSize), 
+     .       VMatrix(NSize,NSize), GMatrix(NSize,NSize),
+     .       FMatrix(NSize,NSize), Dist,
+     .       QMatrix(NSize,NSize,NSize,NSize)
+
+      INTEGER TypeMatrix(NSize,NSize,NSize,NSize)
+
+      COMMON Z, Alpha, C, SMatrix, HMatrix, VMatrix, 
+     .       QMatrix, DensMat, FMatrix, TypeMatrix, GMatrix, 
+     .       PI, Dist
+  
+
+
+     

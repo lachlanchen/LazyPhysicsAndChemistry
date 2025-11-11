@@ -1,0 +1,14 @@
+This directory contains a few fortran programs for calculating
+the electronic structure of the two-electron systems He and H2. 
+
+In the H2 program, a call is made to the error function. In many
+fortran compilers, this function is implemented, so that a simple
+call to "erf" is ok on line 181 of the file h2.f 
+(double precision function F(x)).
+Because on some compilers, the error function is missing, 
+I have included a C function (in program erf.c), which provides
+the correct fortran interface to the c-error function.
+Good error function routines wriiten in f77 can be found on 
+www.netlib.org
+
+Jos Thijssen

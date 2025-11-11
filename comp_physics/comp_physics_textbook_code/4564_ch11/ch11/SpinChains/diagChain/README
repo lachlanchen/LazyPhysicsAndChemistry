@@ -1,0 +1,13 @@
+NOTE: This directory contains two programs for the heisenberg chain.
+The first program, 'heisen.f90' uses a Lanczos diagonalisation for
+the Heisenberg chain. The second program, 'symheis.f90' exploits symmetries
+in order to make the problem of the full diagonalisation feasible.
+The first program comes in two flavours: the first is for the
+gfortran compiler, and the second for the intel ifort compiler.
+The difference between the two is that the first one does 
+not use an external Lanczos routine as I did not get the call to
+a matrix-vector multiplication routine to work. 
+The gfortran should also work with ifort....
+
+The symheis only works for ifort, as gfortran does not allow allocation
+of an array of allocatable arrays. Sorry.....

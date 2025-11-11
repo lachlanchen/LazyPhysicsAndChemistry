@@ -1,0 +1,24 @@
+      IMPLICIT NONE
+
+      INTEGER PartNum, MaxLen
+
+      PARAMETER (PartNum = 864, MaxLen=800000)
+
+      REAL*8 Qx(PartNum), Qy(PartNum), Qz(PartNum), S, 
+     .       Px(PartNum), Py(PartNum), Pz(PartNum), Q, 
+     .       Temperature, Volume, InitTime, SimTime, TimeStep,
+     .       VolSize, Dichtheid, XVolSize, MaxRange, CorrStep,
+     .       PairDist(MaxLen,4), ROuter, RInner, Sep
+
+      INTEGER ScaleTime, CorrArray(MaxLen), PairList(MaxLen, 2),
+     .        PairNum, DispInt
+
+
+      COMMON /MainCommon/ Temperature, Volume, InitTime, S, 
+     .       SimTime, TimeStep, Qx, Qy, Qz, Px, Py, Pz, Q, 
+     .       VolSize, Dichtheid, XVolSize, MaxRange, CorrStep,
+     .       ROuter, RInner, Sep,
+     .       PairDist, CorrArray, ScaleTime, PairList, PairNum,
+     .       DispInt
+
+

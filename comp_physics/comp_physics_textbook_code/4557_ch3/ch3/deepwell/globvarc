@@ -1,0 +1,7 @@
+      IMPLICIT NONE
+     
+      INTEGER N, MaxN
+
+      PARAMETER (MaxN = 100)
+
+      COMMON N

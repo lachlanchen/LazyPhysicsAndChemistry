@@ -1,0 +1,155 @@
+GFORTRAN module created from brmod.f90 on Mon Mar 12 15:56:21 2007
+If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'bodyforces' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (REAL 8 ()) 0 0 () (1 DEFERRED () ()) 0 () ())
+3 'brmod' 'brmod' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (
+UNKNOWN 0 ()) 0 0 () () 0 () ())
+4 'cg' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL SUBROUTINE)
+(UNKNOWN 0 ()) 5 0 (6 7 8) () 0 () ())
+9 'displacements' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN ALLOCATABLE DIMENSION) (REAL 8 ()) 0 0 () (1 DEFERRED () ()) 0 ()
+())
+10 'dispbound' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (INTEGER 4 ()) 0 0 () (1 DEFERRED () ()) 0 () ())
+11 'drawfem' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 0 0 () () 0 () ())
+12 'dofemstep2' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 13 0 (14) () 0 () ())
+15 'dofemstep1' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 16 0 (17) () 0 () ())
+18 'e' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (REAL 8
+()) 0 0 () () 0 () ())
+19 'force' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+DIMENSION) (REAL 8 ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1')
+(CONSTANT (INTEGER 4 ()) 0 '2')) 0 () ())
+20 'find_stiffness' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+DECL SUBROUTINE) (UNKNOWN 0 ()) 21 0 (22) () 0 () ())
+23 'fac2' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (
+REAL 8 ()) 0 0 () () 0 () ())
+24 'highfree' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN)
+(INTEGER 4 ()) 0 0 () () 0 () ())
+25 'drawfem2' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 0 0 () () 0 () ())
+26 'cmatrix' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+DIMENSION) (REAL 8 ()) 0 0 () (2 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1')
+(CONSTANT (INTEGER 4 ()) 0 '3') (CONSTANT (INTEGER 4 ()) 0 '1') (
+CONSTANT (INTEGER 4 ()) 0 '3')) 0 () ())
+27 'calcfemforce' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 0 0 () () 0 () ())
+28 'initialise' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 0 0 () () 0 () ())
+29 'lx' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (REAL
+8 ()) 0 0 () () 0 () ())
+30 'locations' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (REAL 8 ()) 0 0 () (2 DEFERRED () () () ()) 0 ()
+())
+31 'ly' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (REAL
+8 ()) 0 0 () () 0 () ())
+32 'initdyn' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 33 0 (34) () 0 () ())
+35 'massrho' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (
+REAL 8 ()) 0 0 () () 0 () ())
+36 'momenta' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (REAL 8 ()) 0 0 () (1 DEFERRED () ()) 0 () ())
+37 'massvec' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (REAL 8 ()) 0 0 () (1 DEFERRED () ()) 0 () ())
+38 'nx' 'brmod' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (
+INTEGER 4 ()) 0 0 () (CONSTANT (INTEGER 4 ()) 0 '24') () 0 () ())
+39 'nu' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (REAL
+8 ()) 0 0 () () 0 () ())
+40 'nativehigh' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN)
+(INTEGER 4 ()) 0 0 () () 0 () ())
+41 'outputny' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+FUNCTION) (INTEGER 4 ()) 0 0 () () 41 () ())
+42 'testmat' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+DIMENSION) (REAL 8 ()) 0 0 () (2 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1')
+(CONSTANT (INTEGER 4 ()) 0 '4') (CONSTANT (INTEGER 4 ()) 0 '1') (
+CONSTANT (INTEGER 4 ()) 0 '4')) 0 () ())
+43 'stiffnessmul' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 44 0 (45 46 47) () 0 () ())
+48 'scaleconst' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN)
+(REAL 8 ()) 0 0 () () 0 () ())
+49 'rhs' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (REAL 8 ()) 0 0 () (1 DEFERRED () ()) 0 () ())
+50 'onboundary' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+FUNCTION) (LOGICAL 4 ()) 51 0 (52 53) () 50 () ())
+54 'ny' 'brmod' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN) (
+INTEGER 4 ()) 0 0 () (CONSTANT (INTEGER 4 ()) 0 '23') () 0 () ())
+55 'massmul' 'brmod' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+SUBROUTINE) (UNKNOWN 0 ()) 56 0 (57 58 59) () 0 () ())
+60 'triangles' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (DERIVED 61 ()) 0 0 () (1 DEFERRED () ()) 0 () ())
+62 'triangnum' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN)
+(INTEGER 4 ()) 0 0 () () 0 () ())
+61 'triangletype' 'brmod' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN) (UNKNOWN 0 ()) 0 0 () () 0 ((63 'vertindex' (INTEGER 4 ()) (1
+EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1') (CONSTANT (INTEGER 4 ()) 0 '3'))
+1 0 ()) (64 'stiffness' (REAL 8 ()) (2 EXPLICIT (CONSTANT (INTEGER 4 ())
+0 '1') (CONSTANT (INTEGER 4 ()) 0 '6') (CONSTANT (INTEGER 4 ()) 0 '1') (
+CONSTANT (INTEGER 4 ()) 0 '6')) 1 0 ()) (65 'amatrix' (REAL 8 ()) (2
+EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1') (CONSTANT (INTEGER 4 ()) 0 '6')
+(CONSTANT (INTEGER 4 ()) 0 '1') (CONSTANT (INTEGER 4 ()) 0 '6')) 1 0 ())
+(66 'freenum' (INTEGER 4 ()) () 0 0 ()) (67 'border' (LOGICAL 4 ()) () 0
+0 ())) PUBLIC ())
+68 'vertptnum' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN)
+(INTEGER 4 ()) 0 0 () () 0 () ())
+69 'tractbound' 'brmod' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+ALLOCATABLE DIMENSION) (INTEGER 4 ()) 0 0 () (1 DEFERRED () ()) 0 () ())
+22 'triangle' '' 21 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY)
+(DERIVED 61 ()) 0 0 () () 0 () ())
+53 'iy' '' 51 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+52 'ix' '' 51 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+47 'n' '' 44 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+46 'newdisp' '' 44 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+DIMENSION DUMMY) (REAL 8 ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 ())
+0 '1') (VARIABLE (INTEGER 4 ()) 0 47 ())) 0 () ())
+57 'olddisp' '' 56 ((VARIABLE IN UNKNOWN-PROC UNKNOWN DIMENSION DUMMY) (
+REAL 8 ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1') (VARIABLE
+(INTEGER 4 ()) 0 59 ())) 0 () ())
+45 'olddisp' '' 44 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+DIMENSION DUMMY) (REAL 8 ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 ())
+0 '1') (VARIABLE (INTEGER 4 ()) 0 47 ())) 0 () ())
+59 'n' '' 56 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+34 'deltat' '' 33 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY)
+(REAL 8 ()) 0 0 () () 0 () ())
+14 'deltat' '' 13 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY)
+(REAL 8 ()) 0 0 () () 0 () ())
+17 'deltat' '' 16 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY)
+(REAL 8 ()) 0 0 () () 0 () ())
+58 'newdisp' '' 56 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN DIMENSION DUMMY)
+(REAL 8 ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1') (
+VARIABLE (INTEGER 4 ()) 0 59 ())) 0 () ())
+7 'n' '' 5 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+6 'x' '' 5 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN DIMENSION DUMMY) (REAL
+8 ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1') (VARIABLE (
+INTEGER 4 ()) 0 7 ())) 0 () ())
+8 'rhs' '' 5 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN DIMENSION DUMMY) (
+REAL 8 ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1') (VARIABLE
+(INTEGER 4 ()) 0 7 ())) 0 () ())
+)
+
+('tractbound' 0 69 'massmul' 0 55 'initdyn' 0 32 'calcfemforce' 0 27
+'brmod' 0 3 'bodyforces' 0 2 'cmatrix' 0 26 'cg' 0 4 'drawfem2' 0 25
+'dofemstep1' 0 15 'dispbound' 0 10 'displacements' 0 9 'dofemstep2' 0 12
+'drawfem' 0 11 'highfree' 0 24 'fac2' 0 23 'e' 0 18 'find_stiffness' 0
+20 'force' 0 19 'ly' 0 31 'locations' 0 30 'initialise' 0 28 'lx' 0 29
+'ny' 0 54 'nativehigh' 0 40 'massvec' 0 37 'massrho' 0 35 'momenta' 0 36
+'nu' 0 39 'nx' 0 38 'onboundary' 0 50 'rhs' 0 49 'outputny' 0 41
+'scaleconst' 0 48 'stiffnessmul' 0 43 'testmat' 0 42 'vertptnum' 0 68
+'triangletype' 0 61 'triangles' 0 60 'triangnum' 0 62)

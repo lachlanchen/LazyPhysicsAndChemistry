@@ -1,0 +1,27 @@
+# Repository-specific ignores
+books/
+ComputationalPhysics
+Gaussian
+
+# Local artifacts / datasets
+*.chk
+fort.7
+water.chk
+
+# Python internals
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+
+# OS clutter
+.DS_Store
+._.DS_Store
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# macOS metadata
+._*

@@ -1,0 +1,42 @@
+\documentstyle{article}
+\begin{document}
+\title{Explanation of Metropolis procedure for guide function QMC}
+\author{Jos Thijssen}
+\maketitle
+This is not an erratum, but a more detailed 
+explanation of the application of the Metropolis procedure
+applied in guide function MC described on page 333 of the book.
+The motivation for this addendum is the realisation that 
+Eq.~(12.57) might be confusing, since after all it is 
+$\psi(R)\psi_T(R)$ that we want to sample, and not
+$\psi_T^2(R)$. The following aims at justifying the use of Eq.~(12.57). 
+
+The standard Fokker-Planck equation reads:
+\begin{equation} \label{Eq:FP}
+\frac{\partial \rho(R,t)}{\partial t} = \frac{1}{2}\nabla 
+\left[\nabla - {\bf F}(R) \right] \rho(R,t),
+\end{equation}
+where 
+\begin{equation}
+{\bf F} = 2 \nabla_R \psi_T(R)/\psi_T(R),
+\end{equation} 
+$\psi_T$ is a trial wave function 
+and $\rho(R,t)$ samples to $\psi^2_T(R)$ for large $t$.
+
+For guide function QMC, the Fokker-Planck equation reads
+\begin{equation} \label{Eq:FP}
+\frac{\partial \tilde{\rho}(R,t)}{\partial t} = \frac{1}{2}\nabla 
+\left[\nabla - {\bf F}(R) \right] \tilde{\rho}(R,t) + [E_L(R)-E_T]\tilde{\rho}(R,t),
+\end{equation}
+where $\bf F$ is the same as above, but $\tilde{\rho}$ samples to $\psi(R) \psi_T(R)$, 
+where $\psi(R)$ is the ground state solution of the Schr\"odinger equation. 
+The first step in the guide function procedure consists of propagating the walker 
+according to a probability which satisfies (\ref{Eq:FP}), and in the second 
+step the weight associated to that walker is multiplied by 
+$\exp\left\{-\Delta t \left[ E_L(R) + E_L(R')\right]/2 - E_T\right\}$. 
+We know from the analysis for Fokker-Planc VMC, that the first step is
+most accurately realised by combining the drift-diffusion with a 
+Metropolis-correction term as in Eq.~(12.57), involving only $\psi_T$, 
+as the first step does not depend at $\psi$ at all. This justifies
+the procedure followed in the book and in the programs.
+\end{document}

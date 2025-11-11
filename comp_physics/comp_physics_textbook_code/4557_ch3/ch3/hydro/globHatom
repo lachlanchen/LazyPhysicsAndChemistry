@@ -1,0 +1,21 @@
+      IMPLICIT NONE
+
+      INTEGER N, NSize
+C N is the size of the basis. NSize is the maximum allowed size.
+
+      PARAMETER (N=4, NSize=4)
+
+      DOUBLE PRECISION Z, PI, Alpha(NSize),
+     .                 SMatrix(NSize,NSize), 
+     .                 HMatrix(NSize,NSize)
+C Z is the nuclear charge. PI is 3.1415....
+C Alpha contains the Gaussian exponential coefficients, 
+C HMatrix and SMatrix are the Hamilton and Overlap matrix
+C respectively.
+
+      COMMON Z, Alpha, SMatrix, HMatrix, PI
+
+  
+
+
+     
