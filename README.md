@@ -1,6 +1,6 @@
-# LazyPhysicsAndChemistry
+# LazyPhysics and Chemistry
 
-LazyPhysicsAndChemistry is the code + notebook half of **LazyLearn**—my intentionally slow learning log for physics and chemistry. The living notes, wins, and TODOs surface at [learn.lazying.art](https://learn.lazying.art) (served directly from `docs/` in this repo), while the runnable artifacts stay here so experiments always have a home.
+LazyPhysics and Chemistry is the code + notebook half of **LazyLearn**—my intentionally slow learning log for physics and chemistry. The living notes, wins, and TODOs surface at [learn.lazying.art](https://learn.lazying.art) (served directly from `docs/` in this repo), while the runnable artifacts stay here so experiments always have a home.
 
 ## LazyLearn
 
@@ -104,26 +104,6 @@ Helping LazyLearn keeps the experiments, documentation, and open tooling flowing
 - ご支援は研究・開発と運用の継続に役立ち、より多くのオープンなプロジェクトを皆さんに届ける力になります。  
 - 你的支持将用于研发与运维，帮助我持续公开分享更多项目与改进。  
 - Your support sustains my research, development, and ops so I can keep sharing more open projects and improvements.
-
-## Reference stacks & related repos
-
-LazyLearn leans on a couple of large companion repos that stay **outside** of version control here but are symlinked in for quick lookups:
-
-- `leonardsusskind/` → symlink to `../leonardsusskind/`, which mirrors the lecture notes + supplemental packets from [github.com/lachlanchen/leonardsusskind](https://github.com/lachlanchen/leonardsusskind).
-- `the_theoretical_minimum/` → symlink to `../the_theoretical_minimum/`, keeping the LaTeX sources, figures, and scripts from [github.com/lachlanchen/the_theoretical_minimum](https://github.com/lachlanchen/the_theoretical_minimum).
-
-These repos are hefty (books, PDFs, figures), so they remain ignored via `.gitignore`. When setting up a fresh machine:
-
-```bash
-cd ~/ProjectsLFS
-git clone git@github.com:lachlanchen/leonardsusskind.git
-git clone git@github.com:lachlanchen/the_theoretical_minimum.git
-cd QUANTUM
-ln -s ../leonardsusskind/
-ln -s ../the_theoretical_minimum/
-```
-
-Additional personal sandboxes such as `cellist` and `lazealoptix` live under `~/Projects/` and feed future LazyLearn chapters (optics + creative tooling), but they stay decoupled from this repo until specific experiments are ready.
 
 ## Version control notes
 
