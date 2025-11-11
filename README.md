@@ -55,6 +55,26 @@ Open any notebook after activating the Python environment. If you need extra dep
 
 All generated PNGs live under `figures/`. If you regenerate or add plots from notebooks/scripts, drop them here so they stay versioned alongside the code that produced them.
 
+## Reference stacks & related repos
+
+LazyLearn leans on a couple of large companion repos that stay **outside** of version control here but are symlinked in for quick lookups:
+
+- `leonardsusskind/` → symlink to `../leonardsusskind/`, which mirrors the lecture notes + supplemental packets from [github.com/lachlanchen/leonardsusskind](https://github.com/lachlanchen/leonardsusskind).
+- `the_theoretical_minimum/` → symlink to `../the_theoretical_minimum/`, keeping the LaTeX sources, figures, and scripts from [github.com/lachlanchen/the_theoretical_minimum](https://github.com/lachlanchen/the_theoretical_minimum).
+
+These repos are hefty (books, PDFs, figures), so they remain ignored via `.gitignore`. When setting up a fresh machine:
+
+```bash
+cd ~/ProjectsLFS
+git clone git@github.com:lachlanchen/leonardsusskind.git
+git clone git@github.com:lachlanchen/the_theoretical_minimum.git
+cd QUANTUM
+ln -s ../leonardsusskind/
+ln -s ../the_theoretical_minimum/
+```
+
+Additional personal sandboxes such as `cellist` and `lazealoptix` live under `~/Projects/` and feed future LazyLearn chapters (optics + creative tooling), but they stay decoupled from this repo until specific experiments are ready.
+
 ## Version control notes
 
 - Heavy directories such as `books/`, Gaussian symlinks, checkpoint files, and local scratch artifacts remain ignored via `.gitignore`.
