@@ -25,7 +25,7 @@ LazyPhysics and Chemistry is the code + notebook half of **LazyLearn**—my inte
 
 - `examples/` – focused Python scripts (QAOA + VQE) that run on commodity laptops with Qiskit or PennyLane.
 - `comp_physics/` – computational physics notebooks, helper scripts like `numerov.py`, and supporting data/figures that back the notebook chapters.
-- `comp_physics_python/` – clean Python ports of Jos Thijssen’s textbook code, organised per chapter (see [comp_physics_python/README.md](comp_physics_python/README.md) for the mapping).
+- `comp_physics_python/` – clean Python ports of Jos Thijssen’s textbook *Computational Physics*. Each subfolder maps to a chapter (see [comp_physics_python/README.md](comp_physics_python/README.md) for the index and CLI examples).
 - `multiwfn/` – upstream Multiwfn 3.8 developer source drop plus the reference PDFs for quick lookup.
 - `figures/` – static PNGs used by the scripts/notebooks for reports or slides.
 - `docs/` – the LazyLearn microsite that GitHub Pages (or your own host) serves at `learn.lazying.art`.
