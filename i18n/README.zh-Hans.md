@@ -25,6 +25,7 @@ LazyPhysics and Chemistry 是 **LazyLearn** 的代码与笔记本一半——我
 
 - `examples/` —— 运行于普通笔记本电脑的 QAOA/VQE Python 脚本（依赖 Qiskit 或 PennyLane）。
 - `comp_physics/` —— 计算物理笔记本、辅助脚本（如 `numerov.py`）以及配套数据/插图。
+- `comp_physics_python/` —— Jos Thijssen 教科书 Fortran 代码的 Python 改写，按章节分目录（详见 [comp_physics_python/README.md](../comp_physics_python/README.md)）。
 - `multiwfn/` —— Multiwfn 3.8 dev 版本源码与参考 PDF，方便配合 Gaussian 做后处理。
 - `figures/` —— 由脚本或笔记本生成的 PNG，便于复用。
 - `docs/` —— LazyLearn 微型站点，可通过 GitHub Pages（或自托管）发布到 `learn.lazying.art`。
@@ -67,6 +68,10 @@ pip install qiskit pennylane numpy matplotlib
 ## 图像
 
 全部 PNG 存放在 `figures/`。若重生成或新增图表，请放入此处方便版本管理。
+
+## 教程代码移植
+
+`comp_physics_python/` 收录了《Computational Physics》中 Fortran 程序的 Python 版本。每个子目录对应书里的一个章节（例如 `ch4/` 是 Hartree–Fock，`ch8/` 是分子动力学，`ch10/` 是 Monte Carlo），并提供命令行入口以便在现代环境中直接复现实验。更多详情与运行示例见 [comp_physics_python/README.md](../comp_physics_python/README.md)。
 
 ## 支持 LazyLearn
 

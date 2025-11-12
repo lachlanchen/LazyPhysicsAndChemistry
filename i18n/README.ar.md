@@ -27,6 +27,7 @@
 
 - `examples/` — سكربتات Python مركّزة لتجارب QAOA وVQE باستخدام Qiskit أو PennyLane.
 - `comp_physics/` — دفاتر فيزياء حسابية، سكربتات مساعدة مثل `numerov.py`، وبيانات داعمة.
+- `comp_physics_python/` — نسخ Python لبرامج Fortran الواردة في كتاب *Computational Physics*، مرتبة حسب الفصول (انظر [comp_physics_python/README.md](../comp_physics_python/README.md)).
 - `multiwfn/` — إسقاط لمصدر Multiwfn 3.8 dev مع أدلة PDF مرجعية.
 - `figures/` — صور PNG ثابتة تستخدم في العروض أو التقارير.
 - `docs/` — موقع LazyLearn المصغّر الذي يُنشر إلى `learn.lazying.art` عبر GitHub Pages أو استضافة خاصة.
@@ -69,6 +70,10 @@ pip install qiskit pennylane numpy matplotlib
 ## الرسوم والصور
 
 جميع ملفات PNG محفوظة داخل `figures/`. أضف أي رسومات جديدة لهذا المجلد ليتم تتبعها بالإصدارات.
+
+## ترجمات كود الكتاب
+
+يحتوي مجلد `comp_physics_python/` على نسخ Python من برامج Fortran الواردة في كتاب *Computational Physics*. كل مجلد فرعي يمثّل فصلاً (مثلًا `ch4/` = Hartree–Fock، و `ch8/` = ديناميكيات جزيئية، و `ch10/` = مونت كارلو)، وجميع السكربتات توفر واجهة أوامر لتشغيل التجارب على بيئة Python/NumPy حديثة. راجع [comp_physics_python/README.md](../comp_physics_python/README.md) للاطلاع على حالة التغطية وتعليمات التشغيل.
 
 ## دعم LazyLearn
 

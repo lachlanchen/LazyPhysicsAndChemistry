@@ -25,6 +25,7 @@ LazyPhysics and Chemistry は **LazyLearn**（物理と化学をゆっくり学�
 
 - `examples/` — QAOA/VQE の軽量 Python スクリプト（Qiskit or PennyLane）。
 - `comp_physics/` — 計算物理ノート、`numerov.py` などの補助スクリプト、関連データ/図。
+- `comp_physics_python/` — Thijssen 教材の Fortran コードを章ごとに移植した Python 版（詳細は [comp_physics_python/README.md](../comp_physics_python/README.md)）。
 - `multiwfn/` — Multiwfn 3.8 dev ソースと PDF ドキュメント。Gaussian 後処理に使用。
 - `figures/` — ノート/スクリプトから生成した PNG。
 - `docs/` — LazyLearn のミニサイト。GitHub Pages（または自前ホスティング）で `learn.lazying.art` に公開。
@@ -67,6 +68,10 @@ pip install qiskit pennylane numpy matplotlib
 ## 図表
 
 生成した PNG はすべて `figures/` に保存。再生成や新規の図があればここへ追加します。
+
+## 教材コード移植
+
+`comp_physics_python/` には Thijssen の *Computational Physics* で紹介された Fortran プログラムの Python 移植版が章ごとにまとまっています（例：`ch4/` = Hartree–Fock、`ch8/` = 分子動力学、`ch10/` = Monte Carlo）。すべて CLI 付きなので、現行の Python/NumPy 環境で書籍の数値実験を再現できます。詳しくは [comp_physics_python/README.md](../comp_physics_python/README.md) を参照してください。
 
 ## LazyLearn を支援
 

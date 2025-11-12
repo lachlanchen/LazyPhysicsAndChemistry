@@ -25,6 +25,7 @@ LazyPhysics and Chemistry es la mitad de código y cuadernos de **LazyLearn**, m
 
 - `examples/` – scripts Python de QAOA/VQE que corren en un portátil con Qiskit o PennyLane.
 - `comp_physics/` – notebooks de física computacional, scripts auxiliares (`numerov.py`) y datos/figuras.
+- `comp_physics_python/` – port de los programas Fortran del libro *Computational Physics* organizado por capítulos (ver [comp_physics_python/README.md](../comp_physics_python/README.md)).
 - `multiwfn/` – versión upstream de Multiwfn 3.8 dev con PDFs de referencia.
 - `figures/` – PNGs generados para informes o presentaciones.
 - `docs/` – micrositio de LazyLearn publicado en `learn.lazying.art` (GitHub Pages u otro host).
@@ -67,6 +68,10 @@ Documenta cualquier dependencia extra en `comp_physics/environments.yaml`.
 ## Figuras
 
 Todas las imágenes PNG se encuentran en `figures/`. Incluye versiones nuevas aquí para tenerlas versionadas.
+
+## Código del libro en Python
+
+`comp_physics_python/` reúne las traducciones a Python de los programas Fortran de *Computational Physics*. Cada subcarpeta corresponde a un capítulo (por ejemplo `ch4/` = Hartree–Fock, `ch8/` = dinámica molecular, `ch10/` = Monte Carlo) y cada script ofrece una CLI para repetir los cálculos en un entorno moderno de Python/NumPy. Consulta [comp_physics_python/README.md](../comp_physics_python/README.md) para conocer el estado actual y los comandos.
 
 ## Apoya LazyLearn
 

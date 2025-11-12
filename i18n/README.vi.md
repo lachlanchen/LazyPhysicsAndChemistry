@@ -25,6 +25,7 @@ LazyPhysics and Chemistry là phần mã + notebook của **LazyLearn**—nhật
 
 - `examples/` – script Python QAOA/VQE chạy được trên laptop với Qiskit hoặc PennyLane.
 - `comp_physics/` – notebook vật lý tính toán, script trợ giúp (`numerov.py`) và dữ liệu/hình đi kèm.
+- `comp_physics_python/` – bản chuyển đổi Python của các chương trình Fortran trong *Computational Physics* (xem [comp_physics_python/README.md](../comp_physics_python/README.md)).
 - `multiwfn/` – bản nguồn Multiwfn 3.8 dev và tài liệu tham khảo.
 - `figures/` – PNG sinh ra từ notebook/script.
 - `docs/` – microsite LazyLearn, có thể deploy lên `learn.lazying.art` bằng GitHub Pages hoặc host riêng.
@@ -67,6 +68,10 @@ Nếu cần thêm dependency, hãy ghi vào `comp_physics/environments.yaml`.
 ## Hình ảnh
 
 Tất cả PNG nằm trong `figures/`. Khi có biểu đồ mới, hãy thả vào thư mục này để được version hóa.
+
+## Bản dịch mã từ giáo trình
+
+`comp_physics_python/` chứa các bản Python của chương trình Fortran trong *Computational Physics*, mỗi thư mục con tương ứng với một chương (ví dụ `ch4/` = Hartree–Fock, `ch8/` = mô phỏng MD, `ch10/` = Monte Carlo). Mọi script đều có CLI nên bạn có thể chạy lại thí nghiệm với môi trường Python/NumPy hiện đại. Xem [comp_physics_python/README.md](../comp_physics_python/README.md) để biết chi tiết và ví dụ.
 
 ## Ủng hộ LazyLearn
 
