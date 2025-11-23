@@ -23,12 +23,11 @@ but everything implemented so far (Ch. 2–5, 8, 10) runs with plain NumPy/Sci
 
 | Folder | Chapter | Highlights |
 | --- | --- | --- |
-| Folder | Chapter | Highlights |
-| --- | --- | --- |
 | [`ch2/`](ch2/README.md) | §2 – Lennard-Jones scattering | `lennard_jones_scattering.py` reproduces the APW-style phase-shift code with Numerov integration and a CLI for generating σ(E) tables. |
 | [`ch3/`](ch3/README.md) | §3 – Variational calculations | `deep_well_variational.py` and `hydrogen_gaussians.py` plus a tiny `generalized_eigh` helper to solve the generalised eigenvalue problems described in the text. |
 | [`ch4/`](ch4/README.md) | §4 – Restricted Hartree–Fock | Helium and H₂ Hartree–Fock solvers (`helium_hartree_fock.py`, `h2_hartree_fock.py`) that reproduce the basis, potentials, and energy bookkeeping of the original Fortran. |
 | [`ch5/`](ch5/README.md) | §5 – Radial Hartree/DFT | `hydrogen_radial.py` (Numerov + shooting) and `helium_scf.py` (Hartree / Slater / LDA with Ceperley–Alder) share utilities in `common.py`. |
+| [`ch6/`](ch6/README.md) | §6 – APW & pseudopotentials | `apw/` ports `logapw.f` (Γ→K APW spectra) and `pseudo/` reproduces the semi-empirical silicon pseudopotential with Löwdin partitioning. |
 | [`ch8/`](ch8/README.md) | §8 – Molecular dynamics | `ar_md.py` (LJ MD) and `n2_md.py` (rigid diatomic MD) with reusable lattice/Verlet helpers. |
 | [`ch10/`](ch10/README.md) | §10 – Monte Carlo samplers | `lj_mc.py`, `ising_mc.py`, and `rosenbluth_polymer.py` cover the Lennard-Jones Metropolis, 2D Ising Metropolis, and Rosenbluth polymer-growth algorithms. |
 
